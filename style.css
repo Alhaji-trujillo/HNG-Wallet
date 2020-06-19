@@ -99,8 +99,18 @@ a{
     text-decoration: none;
 }
 
+.button2 a {
+    background-color: rgba(0, 174, 255, 0.5);
+    color: #ffffff;
+    border: rgba(0, 174, 255, 0.1) 2px solid;
+    border-radius: 5px;
+    padding: 0.5em 1em;
+    margin: 20px 10px;
+  }
+
 @media screen and (max-width: 768px) {
     header {
     width: 100%;
- }
+}
+
 }
