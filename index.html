@@ -6,19 +6,18 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style.css">
     <title>HNG Wallet</title>
-    <link rel="stylesheet" href="../../maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-    <script src="../../ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
-    <script src="../../maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 </head>
 <body>
-    <nav>
-        <div >
-            <a href="#">
-            <p class="hamBurg">&horbar;&horbar;&horbar; </p>
-            <p class="hamBurg">&horbar;&horbar;&horbar;</p>
-            <p class="hamBurg">&horbar;&horbar;&horbar;</p>
-        </a>
-        </div>
+    <nav class="navbar-fixed-top">
+
         <div ><h2 class="headTitle">HNG Wallet</h2></div>
     </nav>
 
@@ -31,13 +30,16 @@
                     <h4><span>The</span> <br> HNG Internship</h4> 
                 </div>
                 <div class="avatar">
-                    <!--<img src="images/Vector.png" alt="">-->
+                   <span class="glyphicon glyphicon-user dropdown-toggle" data-toggle="dropdown"></span>
+            <span class="caret" style="color: white; height: 3em; margin-right: 2em;"></span>
                 </div>
             </div>
             <h4 class="interns">Interns</h4>
         </div>
     </header>
-    <main>
+    <div class="container">
+        <button class="btn btn-primary"><span>&times;</span> delete</button>
+        <button class="btn btn-primary" style="float: right;"><span class="glyphicon glyphicon-user  addBeneficiary"></span>add</button>
         <table class="table table-bordered">
             <thead>
               <tr>
@@ -252,9 +254,17 @@
               </tr>
             </tbody>
           </table>
-    </main>
-    <footer>
-
-    </footer>
+          <button class="send btn btn-primary btn-lg">&check; send</button>
+    </div>
+    <div class="footer"> 
+        <div>
+            <p class="copryt">copyright HNG Internship 2020</p>
+        </div>
+        <div class="ftSocial">
+            <a href="#"><i class="fa fa-twitter-square fa-2x" ></i></a>
+            <a href="#"><i class="fa fa-facebook fa-2x" ></i></a>
+            <a href="#"><i class="fa fa-instagram fa-2x"></i></a>
+        </div>
+    </div>
 </body>
 </html>

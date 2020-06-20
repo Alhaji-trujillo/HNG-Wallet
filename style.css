@@ -12,7 +12,7 @@ header {
     height: 10em;
     background: rgba(0, 174, 255, 0.5);
     margin: 0 auto;
-    margin-top: 2em;
+    margin-top: 8em;
 
 }
 
@@ -63,6 +63,7 @@ p {
     margin-top: 5em;
     border: solid 1px rgb(160, 158, 158);
     background-color: white;
+    width: 7em;
 }
 .otherInp{
     border: solid 1px rgb(160, 158, 158);
@@ -98,9 +99,67 @@ main{
 a{
     text-decoration: none;
 }
+.glyphicon-user{
+    margin-right: 0.1em;
+    margin-top: 0.5em;
+}
+.glyphicon-user{
+    background-color: white; 
+    color: lightblue; 
+    padding: 0.1em; 
+    border-radius: 0.1em; 
+    font-size: 4em;}
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.copryt{
+    color: rgb(29, 135, 221);
+    margin-left: 8em;
+}
+.ftSocial{
+    padding-right: 8em;
+}
+.ftSocial a{
+    margin-left: 1em;
+    float: right;
+}
+.send{ padding: 2em; margin-left: 25em;}
+.addBeneficiary{
+    font-size: 1em;
+}
 
 @media screen and (max-width: 768px) {
     header {
     width: 100%;
  }
+ .send{ padding: 0.3em; margin-left: 5em; font-size: 0.5;}
+ .table{
+max-width: 100vw;
+overflow: auto;
+}
+th,td{
+    padding: 0.2em;
+    box-sizing: border-box;
+}
+td input{
+    width: 0.1em;
+    font-size: 0.1em;
+    padding-top: 0.5em;
+}
+td input[type=checkbox]{
+    font-size: 0.7em;
+    width: 2em;
+}
+.hamBurg{
+    margin-left: 1.5em;
+    line-height: 0.2em;
+}
+.headTitle{
+    margin-left: 4.5em;
+    color: white;
+}
+.glyphicon-user{
+    padding: 0.1em; 
+    border-radius: 0.1em; 
 }
