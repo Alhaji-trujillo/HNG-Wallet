@@ -76,13 +76,13 @@ select{
 th,td{
     padding: 0.6em;
 }
-nav{
-display: grid;
-grid-template-columns: 10% 90%;
-background-color: black;
+nav {
+  display: grid;
+  grid-template-columns: 10% 90%;
+  background-color: black;
 }
-nav div{
-height: 5em;
+nav div {
+  height: 5em;
 }
 .headTitle{
     margin-left: 20em;
@@ -129,6 +129,15 @@ a{
     font-size: 1em;
 }
 
+.button2 a {
+    background-color: rgba(0, 174, 255, 0.5);
+    color: #ffffff;
+    border: rgba(0, 174, 255, 0.1) 2px solid;
+    border-radius: 5px;
+    padding: 0.5em 1em;
+    margin: 20px 10px;
+  }
+
 @media screen and (max-width: 768px) {
     header {
     width: 100%;
@@ -162,4 +171,7 @@ td input[type=checkbox]{
 .glyphicon-user{
     padding: 0.1em; 
     border-radius: 0.1em; 
+}
+}
+
 }
